@@ -11,4 +11,4 @@ Simple example of implementation Drag and drop in Compose.
 
 ### Preview:
 
-![Drag and drop preview](https://i.imgur.com/YkNZc67.gif)
+![Drag and drop preview](https://i.imgur.com/zWPTaVe.gif)
