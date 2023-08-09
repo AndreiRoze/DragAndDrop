@@ -41,7 +41,10 @@ fun ClassCard(
 ) {
     DropTarget<StudentItem> { isInBound, student ->
         // Animate scale for smooth UI
-        val sizeScale by animateFloatAsState(if (isInBound) 1.08f else 1.0f)
+        val sizeScale by animateFloatAsState(
+            targetValue = if (isInBound) 1.08f else 1.0f,
+            label = "Scale animation"
+        )
 
         // Add student to class
         student?.let {

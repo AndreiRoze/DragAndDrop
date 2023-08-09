@@ -17,7 +17,10 @@ import com.andreirozov.draganddrop.R
 import com.andreirozov.draganddrop.data.StudentItem
 
 @Composable
-fun StudentCard(modifier: Modifier = Modifier, student: StudentItem) {
+fun StudentCard(
+    modifier: Modifier = Modifier,
+    student: StudentItem
+) {
     DragTarget(
         modifier = modifier,
         dataToDrop = student
